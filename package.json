@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://Gokul867.github.io/Portfolio",
   "version": "1.0.0",
   "description": "My Portfolio",
   "source": "src/index.html",
@@ -21,9 +20,7 @@
   },
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -33,5 +30,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Gokul867/Portfolio/issues"
-  }
+  },
+  "homepage": "https://github.com/Gokul867/Portfolio#readme"
 }
